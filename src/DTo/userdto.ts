@@ -8,4 +8,5 @@ export interface UserDTO {
 export interface UserLoginDTO {
     email: string;
     password: string;
+    isLoggedIn: boolean;
 }
